@@ -1,7 +1,7 @@
 name: Create Production Builds
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 jobs:
   build_android:
     type: build # This job type creates a production build for Android
